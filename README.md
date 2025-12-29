@@ -31,6 +31,37 @@
 
 Go to [reactbits.dev](https://reactbits.dev/) to view the documentation.
 
+## Commands
+
+```bash
+# install dependencies
+npm install
+
+# run local dev (registry watcher + Vite dev server)
+npm run dev
+
+# build registry, generate LLM text, and build the Vite site
+npm run build
+
+# watch and rebuild registry artifacts
+npm run registry:dev
+
+# build registry artifacts once
+npm run registry:build
+
+# generate a new component scaffold
+npm run new:component
+
+# generate the LLM text bundle used by docs
+npm run llms:text
+
+# lint source
+npm run lint
+
+# format all files
+npm run format
+```
+
 ## About
 
 React Bits is a collection of animated React components, made to help you stand out through your web creations. We have four main component categories - text animations, animations, components and backgrounds - all free for you to use and all enhanced with customization options as props, to make it easy for you to get exactly what you need out of the box.
